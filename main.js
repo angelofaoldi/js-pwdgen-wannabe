@@ -24,4 +24,42 @@
 
 */
 
-const username = "name";
+/*  
+    impostare una variabile 
+    nella variabile c'è il contenuto HTML
+    rappresentato dal paragrago con id       
+*/
+
+let output = outputText.innerHTML;
+
+/* 
+    outputText dovrà avere il valore 
+    dell'elemento con id quindi del paragrafo
+
+    outputText = document = quindi html
+
+    getElementById = vai a pescare l'elemento con id = p
+    
+    quale id? ('password') = 
+    <p id="password">La password è: </p>
+*/
+
+let outputText = document.getElementById('password');
+
+
+const name = prompt('Il tuo nome');
+
+const surname = prompt ('Il tuo cognome');
+
+const color = prompt('Il tuo colore preferito');
+
+/* mettere insieme le tre informazioni */
+
+output = `${output}${userName}${userLastName}${userFavColor}
+
+
+
+/* math.random             per generare numeri casuali*/
+
+console.log(name, surname, color)
+
